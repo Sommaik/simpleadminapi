@@ -1,0 +1,18 @@
+{
+    "Config": {
+        "auth": {
+            "jwtSecret": "1234567890",
+            "jwtSession": {
+                "session": false
+            }
+        },
+        "mysql": {
+            "host": "localhost",
+            "user": "root",
+            "password": "my-secret-pw",
+            "database": "train",
+            "connectionLimit": 10,
+            "multipleStatements": true
+        }
+    }
+}
